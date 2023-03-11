@@ -46,6 +46,6 @@ class Account():
     def show(self):
         print("        Name:", self.name)
         print("        Balance:", self.balance)
-        print("        Password:", self.password.getPassword())
+        print("        Password:", self.password)
         print()
     
